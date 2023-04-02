@@ -41,7 +41,7 @@ if __name__=='__main__':
         domain_name=""
         user_name=""
         password=""
-        client = Client(domain_name+"/xmlrpc.php",domain_name ,password )
+        client = Client(domain_name+"/xmlrpc.php",user_name ,password )
         categories = client.call(taxonomies.GetTerms('category', {"search": "Uncategorized"}))
         title = 'chat_wordpress'
         content = '''have a try https://github.com/fendouai/chat_wordpress'''
