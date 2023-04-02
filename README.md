@@ -31,11 +31,15 @@ http://entropyengine.cn/?p=82
 ## 快速开始
 
 WordPress 配置项
+
 domain_name=""
+
 user_name=""
+
 password=""
 
 OpenAI 配置项
+
 openai.api_key = "sk-chat_wordpress"
 
 默认只发一篇，去掉这行代码注释解除封印
