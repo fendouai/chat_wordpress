@@ -11,7 +11,8 @@ openai.api_key = "sk-chat_wordpress"
 domain_name = ""
 user_name = ""
 password = ""
-client = Client(domain_name + "/xmlrpc.php", domain_name, password)
+
+client = Client(domain_name + "/xmlrpc.php", user_name, password)
 categories = client.call(taxonomies.GetTerms('category', {"search": "Uncategorized"}))
 pack = [categories[0], ]
 

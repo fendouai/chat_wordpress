@@ -38,6 +38,11 @@ password=""
 OpenAI 配置项
 openai.api_key = "sk-chat_wordpress"
 
+默认只发一篇，去掉这行代码注释解除封印
+
+content_fission(openai, post_seed)
+
+
 ## 文章截图
 
 ![images](./images/list.png)
